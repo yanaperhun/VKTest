@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvConnectionState" type="id"/>
+    <item name="btnCloseError" type="id"/>
+
+    <item name="toolbar" type="id"/>
+    <item name="tvToolbarTitle" type="id"/>
+    <item name="activityProgressBar" type="id"/>
+    <item name="btnBack" type="id"/>
+    <item name="container" type="id"/>
+
+</resources>

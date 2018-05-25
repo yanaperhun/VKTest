@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">VKTest</string>
+    <string name="error">Error</string>
+    <string name="loading">Loading…</string>
+    <string name="title">VKTest</string>
+    <string name="network_nt_avail">Network is not available</string>
+    <string name="vk">VK</string>
+    <string name="sms">SMS</string>
+    <string name="sms_list_is_empty">SMS list is empty</string>
+    <string name="logout">Выйти</string>
+    <string name="enter">Войти</string>
+    <integer name="com_vk_sdk_AppId">6490345</integer>
+    <array name="titles">
+        <item>@string/vk</item>
+        <item>@string/sms</item>
+    </array>
+</resources>

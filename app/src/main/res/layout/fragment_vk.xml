@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rlUser"
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:layout_marginLeft="@dimen/control_margin"
+        android:layout_marginRight="@dimen/control_margin"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/white_rect_with_accent_border">
+
+        <ImageView
+            android:id="@+id/ivPhoto"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/control_margin"
+            android:padding="1dp"
+            android:src="@drawable/ic_settings_user"/>
+
+        <TextView
+            android:id="@+id/tvProfileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ivPhoto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/control_margin"
+            android:text="item_user_name"
+            android:textColor="@color/colorBlack"
+            />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvProfileName"
+            android:layout_centerHorizontal="true"
+            android:text="item_email"
+            android:textColor="@color/colorBlack"/>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnAuth"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginLeft="@dimen/control_margin"
+        android:layout_marginRight="@dimen/control_margin"
+        android:layout_marginTop="@dimen/control_margin"
+        android:background="@color/colorAccent"
+        android:text="@string/enter"
+        android:textColor="@color/white"/>
+</LinearLayout>
